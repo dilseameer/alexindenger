@@ -1,0 +1,18 @@
+Game : Alex in Danger
+Technology : HTML, Javascript, PIXI JS, 
+
+
+Create all assets :
+Game pages assets
+	menu page
+	loading page
+	help page
+	level selection page
+	game over page
+Game play assets
+	character (with all animations)
+	enemies
+	level background	
+	levels and elements
+ 
+
