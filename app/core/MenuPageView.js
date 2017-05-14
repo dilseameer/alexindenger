@@ -32,7 +32,7 @@ AE.MenuPageView.prototype.createView = function () {
 	this.startBtn.buttonMode = true;
 	this.startBtn.on('pointerdown', this.onStartBtnClickEvent.bind(this));
 	
-
+this.startBtn.off('pointerdown', this.onStartBtnClickEvent.bind(this));
 
 	AE.mouseEnable(this.highScroreBtn);
 	this.highScroreBtn.on('pointerdown', this.onHighScoreBtnClickEvent);

@@ -9,7 +9,7 @@ function onBodyLoad(){
 var AE = AE ? AE : {};
 AE.GameView = function (){
 	console.log("game view is created ");
-	this.app = new PIXI.Application(800, 600, {backgroundColor : 0x1099bb});
+	this.app = new PIXI.Application(550, 400, {backgroundColor : 0x1099bb});
 	document.body.appendChild(this.app.view);
 	this.init();
 };
