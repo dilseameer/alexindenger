@@ -1,0 +1,12 @@
+1. load all assets
+2. create all pages
+3. create all charectors
+4. load level
+	load level bg
+	load level objects and set position
+	load char
+		add char events
+	load enimies
+	load bonuses
+	load fall down objects
+	
